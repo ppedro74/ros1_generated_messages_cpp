@@ -22,6 +22,27 @@
     <ClCompile Include="tests\dummy.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\actionlib\TestAction.h" />
+    <ClInclude Include="include\actionlib\TestActionFeedback.h" />
+    <ClInclude Include="include\actionlib\TestActionGoal.h" />
+    <ClInclude Include="include\actionlib\TestActionResult.h" />
+    <ClInclude Include="include\actionlib\TestFeedback.h" />
+    <ClInclude Include="include\actionlib\TestGoal.h" />
+    <ClInclude Include="include\actionlib\TestRequestAction.h" />
+    <ClInclude Include="include\actionlib\TestRequestActionFeedback.h" />
+    <ClInclude Include="include\actionlib\TestRequestActionGoal.h" />
+    <ClInclude Include="include\actionlib\TestRequestActionResult.h" />
+    <ClInclude Include="include\actionlib\TestRequestFeedback.h" />
+    <ClInclude Include="include\actionlib\TestRequestGoal.h" />
+    <ClInclude Include="include\actionlib\TestRequestResult.h" />
+    <ClInclude Include="include\actionlib\TestResult.h" />
+    <ClInclude Include="include\actionlib\TwoIntsAction.h" />
+    <ClInclude Include="include\actionlib\TwoIntsActionFeedback.h" />
+    <ClInclude Include="include\actionlib\TwoIntsActionGoal.h" />
+    <ClInclude Include="include\actionlib\TwoIntsActionResult.h" />
+    <ClInclude Include="include\actionlib\TwoIntsFeedback.h" />
+    <ClInclude Include="include\actionlib\TwoIntsGoal.h" />
+    <ClInclude Include="include\actionlib\TwoIntsResult.h" />
     <ClInclude Include="include\actionlib_msgs\GoalID.h" />
     <ClInclude Include="include\actionlib_msgs\GoalStatus.h" />
     <ClInclude Include="include\actionlib_msgs\GoalStatusArray.h" />
@@ -180,6 +201,18 @@
     <ClInclude Include="include\std_srvs\TriggerRequest.h" />
     <ClInclude Include="include\std_srvs\TriggerResponse.h" />
     <ClInclude Include="include\stereo_msgs\DisparityImage.h" />
+    <ClInclude Include="include\tf2_msgs\FrameGraph.h" />
+    <ClInclude Include="include\tf2_msgs\FrameGraphRequest.h" />
+    <ClInclude Include="include\tf2_msgs\FrameGraphResponse.h" />
+    <ClInclude Include="include\tf2_msgs\LookupTransformAction.h" />
+    <ClInclude Include="include\tf2_msgs\LookupTransformActionFeedback.h" />
+    <ClInclude Include="include\tf2_msgs\LookupTransformActionGoal.h" />
+    <ClInclude Include="include\tf2_msgs\LookupTransformActionResult.h" />
+    <ClInclude Include="include\tf2_msgs\LookupTransformFeedback.h" />
+    <ClInclude Include="include\tf2_msgs\LookupTransformGoal.h" />
+    <ClInclude Include="include\tf2_msgs\LookupTransformResult.h" />
+    <ClInclude Include="include\tf2_msgs\TF2Error.h" />
+    <ClInclude Include="include\tf2_msgs\TFMessage.h" />
     <ClInclude Include="include\trajectory_msgs\JointTrajectory.h" />
     <ClInclude Include="include\trajectory_msgs\JointTrajectoryPoint.h" />
     <ClInclude Include="include\trajectory_msgs\MultiDOFJointTrajectory.h" />
