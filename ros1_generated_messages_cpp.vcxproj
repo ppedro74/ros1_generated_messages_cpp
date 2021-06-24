@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\roscpp\Empty.h" />
+    <ClInclude Include="include\roscpp\EmptyRequest.h" />
+    <ClInclude Include="include\roscpp\EmptyResponse.h" />
+    <ClInclude Include="include\roscpp\GetLoggers.h" />
+    <ClInclude Include="include\roscpp\GetLoggersRequest.h" />
+    <ClInclude Include="include\roscpp\GetLoggersResponse.h" />
+    <ClInclude Include="include\roscpp\Logger.h" />
+    <ClInclude Include="include\roscpp\SetLoggerLevel.h" />
+    <ClInclude Include="include\roscpp\SetLoggerLevelRequest.h" />
+    <ClInclude Include="include\roscpp\SetLoggerLevelResponse.h" />
+    <ClInclude Include="include\rosgraph_msgs\Clock.h" />
+    <ClInclude Include="include\rosgraph_msgs\Log.h" />
+    <ClInclude Include="include\rosgraph_msgs\TopicStatistics.h" />
+    <ClInclude Include="include\std_msgs\Bool.h" />
+    <ClInclude Include="include\std_msgs\Byte.h" />
+    <ClInclude Include="include\std_msgs\ByteMultiArray.h" />
+    <ClInclude Include="include\std_msgs\Char.h" />
+    <ClInclude Include="include\std_msgs\ColorRGBA.h" />
+    <ClInclude Include="include\std_msgs\Duration.h" />
+    <ClInclude Include="include\std_msgs\Empty.h" />
+    <ClInclude Include="include\std_msgs\Float32.h" />
+    <ClInclude Include="include\std_msgs\Float32MultiArray.h" />
+    <ClInclude Include="include\std_msgs\Float64.h" />
+    <ClInclude Include="include\std_msgs\Float64MultiArray.h" />
+    <ClInclude Include="include\std_msgs\Header.h" />
+    <ClInclude Include="include\std_msgs\Int16.h" />
+    <ClInclude Include="include\std_msgs\Int16MultiArray.h" />
+    <ClInclude Include="include\std_msgs\Int32.h" />
+    <ClInclude Include="include\std_msgs\Int32MultiArray.h" />
+    <ClInclude Include="include\std_msgs\Int64.h" />
+    <ClInclude Include="include\std_msgs\Int64MultiArray.h" />
+    <ClInclude Include="include\std_msgs\Int8.h" />
+    <ClInclude Include="include\std_msgs\Int8MultiArray.h" />
+    <ClInclude Include="include\std_msgs\MultiArrayDimension.h" />
+    <ClInclude Include="include\std_msgs\MultiArrayLayout.h" />
+    <ClInclude Include="include\std_msgs\String.h" />
+    <ClInclude Include="include\std_msgs\Time.h" />
+    <ClInclude Include="include\std_msgs\UInt16.h" />
+    <ClInclude Include="include\std_msgs\UInt16MultiArray.h" />
+    <ClInclude Include="include\std_msgs\UInt32.h" />
+    <ClInclude Include="include\std_msgs\UInt32MultiArray.h" />
+    <ClInclude Include="include\std_msgs\UInt64.h" />
+    <ClInclude Include="include\std_msgs\UInt64MultiArray.h" />
+    <ClInclude Include="include\std_msgs\UInt8.h" />
+    <ClInclude Include="include\std_msgs\UInt8MultiArray.h" />
+    <ClInclude Include="include\std_srvs\Empty.h" />
+    <ClInclude Include="include\std_srvs\EmptyRequest.h" />
+    <ClInclude Include="include\std_srvs\EmptyResponse.h" />
+    <ClInclude Include="include\std_srvs\SetBool.h" />
+    <ClInclude Include="include\std_srvs\SetBoolRequest.h" />
+    <ClInclude Include="include\std_srvs\SetBoolResponse.h" />
+    <ClInclude Include="include\std_srvs\Trigger.h" />
+    <ClInclude Include="include\std_srvs\TriggerRequest.h" />
+    <ClInclude Include="include\std_srvs\TriggerResponse.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tests\dummy.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{5E5B6968-FB2B-42A5-A1D0-BEBB5A28F71B}</ProjectGuid>
+    <RootNamespace>ros1_generated_messages_cpp</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="C:\dev\ROS1\RB.ROS1\RB.ROS1.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
