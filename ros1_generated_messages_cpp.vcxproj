@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="tests\dummy.cpp" />
+    <ClCompile Include="dummy.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\actionlib\TestAction.h" />
@@ -55,6 +55,23 @@
     <ClInclude Include="include\diagnostic_msgs\SelfTest.h" />
     <ClInclude Include="include\diagnostic_msgs\SelfTestRequest.h" />
     <ClInclude Include="include\diagnostic_msgs\SelfTestResponse.h" />
+    <ClInclude Include="include\dynamic_reconfigure\BoolParameter.h" />
+    <ClInclude Include="include\dynamic_reconfigure\client.h" />
+    <ClInclude Include="include\dynamic_reconfigure\Config.h" />
+    <ClInclude Include="include\dynamic_reconfigure\ConfigDescription.h" />
+    <ClInclude Include="include\dynamic_reconfigure\config_init_mutex.h" />
+    <ClInclude Include="include\dynamic_reconfigure\config_tools.h" />
+    <ClInclude Include="include\dynamic_reconfigure\DoubleParameter.h" />
+    <ClInclude Include="include\dynamic_reconfigure\Group.h" />
+    <ClInclude Include="include\dynamic_reconfigure\GroupState.h" />
+    <ClInclude Include="include\dynamic_reconfigure\IntParameter.h" />
+    <ClInclude Include="include\dynamic_reconfigure\ParamDescription.h" />
+    <ClInclude Include="include\dynamic_reconfigure\Reconfigure.h" />
+    <ClInclude Include="include\dynamic_reconfigure\ReconfigureRequest.h" />
+    <ClInclude Include="include\dynamic_reconfigure\ReconfigureResponse.h" />
+    <ClInclude Include="include\dynamic_reconfigure\SensorLevels.h" />
+    <ClInclude Include="include\dynamic_reconfigure\server.h" />
+    <ClInclude Include="include\dynamic_reconfigure\StrParameter.h" />
     <ClInclude Include="include\geometry_msgs\Accel.h" />
     <ClInclude Include="include\geometry_msgs\AccelStamped.h" />
     <ClInclude Include="include\geometry_msgs\AccelWithCovariance.h" />
@@ -105,6 +122,8 @@
     <ClInclude Include="include\nav_msgs\SetMap.h" />
     <ClInclude Include="include\nav_msgs\SetMapRequest.h" />
     <ClInclude Include="include\nav_msgs\SetMapResponse.h" />
+    <ClInclude Include="include\realsense2_camera\Extrinsics.h" />
+    <ClInclude Include="include\realsense2_camera\IMUInfo.h" />
     <ClInclude Include="include\roscpp\Empty.h" />
     <ClInclude Include="include\roscpp\EmptyRequest.h" />
     <ClInclude Include="include\roscpp\EmptyResponse.h" />
@@ -213,6 +232,10 @@
     <ClInclude Include="include\tf2_msgs\LookupTransformResult.h" />
     <ClInclude Include="include\tf2_msgs\TF2Error.h" />
     <ClInclude Include="include\tf2_msgs\TFMessage.h" />
+    <ClInclude Include="include\tf\FrameGraph.h" />
+    <ClInclude Include="include\tf\FrameGraphRequest.h" />
+    <ClInclude Include="include\tf\FrameGraphResponse.h" />
+    <ClInclude Include="include\tf\tfMessage.h" />
     <ClInclude Include="include\trajectory_msgs\JointTrajectory.h" />
     <ClInclude Include="include\trajectory_msgs\JointTrajectoryPoint.h" />
     <ClInclude Include="include\trajectory_msgs\MultiDOFJointTrajectory.h" />
